@@ -1,5 +1,8 @@
 # Proyecto2Redes
 Este es el proyecto número 2 para la clase de Redes.
+Realizado por:
+Nathalia Ceballos Hurtado
+Daniel Felipe Bueno
 
 # Configuración para los dispositivos
 
