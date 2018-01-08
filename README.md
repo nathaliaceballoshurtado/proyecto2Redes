@@ -3,7 +3,7 @@ Este es el proyecto número 2 para la clase de Redes.
 
 # Configuración para los dispositivos
 
-R1 server dhcp
+-R1 server dhcp-
 
 R1#conf ter
 
