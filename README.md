@@ -9,7 +9,7 @@ Daniel Felipe Bueno
 
 # Configuración para los dispositivos
 
--R1 server dhcp-
+-----------------------------------------------R1 server dhcp------------------------------------------------
 
 R1#conf ter
 
@@ -26,7 +26,7 @@ R1(dhcp-config)# dns-server 192.168.1.7
 R1(dhcp-config)# domain-name myexample.com
 
 
--R2 cliente dhcp-
+-----------------------------------------------R2 cliente dhcp-----------------------------------------------
 
 
 R2#conf ter
@@ -43,7 +43,7 @@ R1# show ip interface f0/1
 
 
 
--Ubuntu-1-
+-----------------------------------------------Ubuntu-1-----------------------------------------------
 
 cd /etc/network/
 
