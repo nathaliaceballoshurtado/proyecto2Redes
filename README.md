@@ -41,8 +41,19 @@ R1(dhcp-config)# end
 
 R1# show ip interface f0/1
 
+R2(config)#router rip
 
+R2(config-router)#no auto-summary
 
+R2(config-router)#net 192.168.122.0
+
+R2(config-router)#timer basic 5 15 20 40
+
+R2(config-router)#exit
+
+R2(config)#exit
+
+R2#wr
 -----------------------------------------------Ubuntu-1-----------------------------------------------
 
 cd /etc/network/
